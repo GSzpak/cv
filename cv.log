@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.6)  5 OCT 2016 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.6)  1 NOV 2016 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,15 +297,15 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 49.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+(Font)              <5> on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--125
 
@@ -319,12 +319,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--125
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--125
 
- []
-
-
-Overfull \hbox (1.03452pt too wide) in paragraph at lines 117--125
-\OT1/cmr/m/sl/10 Frameworks: \OT1/cmr/m/n/10 Py-ra-mid, SQLAl-chemy, Tor-nado, 
-Django, Flask, Em-ber.js, Back-bone.js,
  []
 
 
@@ -349,17 +343,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--125
 Here is how much of TeX's memory you used:
  1040 strings out of 493089
  11946 string characters out of 6134843
- 74945 words of memory out of 5000000
+ 73945 words of memory out of 5000000
  4569 multiletter control sequences out of 15000+600000
  5511 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,23p,285b,193s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,23p,298b,193s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on cv.pdf (2 pages, 69993 bytes).
+Output written on cv.pdf (2 pages, 69860 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
