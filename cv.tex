@@ -25,6 +25,7 @@
 \usepackage[polish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{helvet} % Default font is the helvetica postscript font
+\usepackage[none]{hyphenat}
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
 
 \setlength{\textwidth}{5.1in} % Text width of the document
@@ -70,21 +71,30 @@ University of Warsaw, Faculty of Mathematics, Informatics and Mechanics
  
 \section{EXPERIENCE}
 
-{\sl \bf Software Engineer} \hfill November 2017 - present \\
+{\sl \bf Software Engineer} \hfill November 2017 - April 2019 \\
 PageBites, Inc. (d.b.a. imo.im) \\
 Palo Alto, California, USA
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Building a highly distributed system serving as a backend for a mobile messaging application used by tens of millions of users every day (Java, netty, Python)
+\item Part of a small team developing a highly distributed, scalable backend for a mobile messaging app, processing 150B requests per day from 200M monthly active users
+\item Designing and implementing fully asynchronous, efficient microservices in Java and Python
+\item Playing key role in design and implementation of architecture changes needed for splitting userbase into two data centers
+\item Implementing auto-reconnecting wrapper for asynchronous Redis client in Java
+\item Maintaining a Cassandra cluster of 500+ nodes 
+\item Troubleshooting bottlenecks and memory leaks in microservices; tuning GC options for some critical microservices
+\item Working on migration from Cloudera CDH version 5 to 6 (Hadoop and Kafka)
+\item Technology stack: Java, Netty, Python, Redis, Cassandra, LevelDB, Zookeeper, Hadoop, Kafka, Puppet, Grafana, HBase, OpenTSDB, AWS S3
 \end{itemize}
 
-{\sl \bf Data Scientist} \hfill January 2017 - October 2017 \\
+{\sl \bf Big Data Engineer / Data Scientist} \hfill January 2017 - October 2017 \\
 Growbots, Inc. \\
 Warsaw, Poland
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Building pipelines for processing large volumes of data (Airflow, Spark)
-\item Building machine learning models solving various Natural Language Processing problems (Python, scikit-learn)
+\item Developing and maintaining the main ETL pipeline for Growbots sales automation product using Dataproc, Spark, Python and Airflow 
+\item Developing machine learning models for improving quality of data
+\item Helping other engineers debug and optimize Spark jobs
+\item Technology stack: Python (incl. ML stack), Spark, Airflow, GCP (Dataproc, BigQuery, Cloud Storage), PostgreSQL, Elasticsearch, Docker, Flask, Celery
 \end{itemize}
 
 {\sl \bf Software Engineer} \hfill January 2016 - December 2016 \\
@@ -92,8 +102,10 @@ DaftCode sp. z o.o. \\
 Warsaw, Poland
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Developing a Real-Time Bidding platform (Python, C++)
-\item Building a machine learning model for predicting click-through rate in online advertising (Python, scikit-learn)
+\item Developing a real-time bidding platform
+\item Building various machine learning models for predicting click-through rate in online advertising
+\item Implementing a bidder service using ML models and pricing strategies to return bid price for a given bid request
+\item Technology stack: Python, xgboost, scikit-learn, pandas, numpy, C++, RTBkit, PostgreSQL, Redis, Tornado, Pyramid, SQLAlchemy, Docker, Graphite
 \end{itemize}
 
 {\sl \bf Software Engineering Intern} \hfill September 2015 - December 2015 \\
@@ -101,8 +113,9 @@ PageBites, Inc. (d.b.a. imo.im) \\
 Palo Alto, California, USA
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
-\item Working on data consistency in a highly distributed system (Python)
-\item Detecting unwanted activities in a social network (Python)
+\item Implementing a service for performing scalable and fault-tolerant data migrations between sharded databases (Redis and MySQL) 
+\item Detecting unwanted activities in a social network
+\item Technology stack: Python, Java, Redis, MySQL, LevelDB, Zookeeper, Grafana
 \end{itemize}
 
 
@@ -112,12 +125,11 @@ Warsaw, Poland
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Creating web applications using Pyramid, SQLAlchemy and Ember.js
-\item Optimizing web server
 \item Part-time job
 \end{itemize}
  
 {\sl \bf Java Developer Intern } \hfill August 2013 - September 2013 \\
-Dev Team in Computer Networks Department, University of Warsaw \\
+Computer Networks Department, University of Warsaw \\
 Warsaw, Poland
 \begin{itemize} 
 \item Creating web applications using Seam, Hibernate, Maven, TestNG and Mockito
@@ -132,10 +144,22 @@ Warsaw, Poland
 {\sl \bf Operating Systems:} Unix \\ \\
 {\sl \bf Programming languages:}
 Java, Python, Scala, C++, C, SQL \\ \\ 
-{\sl \bf Databases:} Redis, Cassandra, PostgreSQL, MySQL, LevelDB, HBase (basics),  \\ \\
-{\sl \bf Frameworks \& libraries:} Spark, Kafka, Hadoop, Airflow, Netty, Tornado, Flask, SQLAlchemy, Python ML stack \\ \\
-{\sl \bf Tools:} Git, Mercurial, Docker \\ \\
+{\sl \bf Data stores:} Redis, Cassandra, PostgreSQL, MySQL, LevelDB, Zookeeper, HBase (basics), Elasticsearch (basics) \\ \\
+{\sl \bf Frameworks \& libraries:} Spark, Kafka, Hadoop, Airflow, Netty, Python ML stack, Celery, Tornado, Flask, SQLAlchemy \\ \\
+{\sl \bf Tools:} Docker, Puppet, Git, Mercurial \\ \\
 {\sl \bf Other:} Distributed systems, microservices, asynchronous programming, basics of reactive programming, machine learning, big data processing, OOP, algorithms, solid mathematical background
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{COURSES}
+
+{\sl \bf Big Data Analysis with Scala and Spark} \hfill  August 2019 \\
+École Polytechnique Fédérale de Lausanne on Coursera 
+
+{\sl \bf Functional Programming Principles in Scala} \hfill  August 2019 \\
+École Polytechnique Fédérale de Lausanne on Coursera 
 
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
@@ -147,10 +171,10 @@ Java, Python, Scala, C++, C, SQL \\ \\
 {\sl \bf German:} intermediate
 
 %----------------------------------------------------------------------------------------
-%	ACHIEVEMENTS SECTION
+%	Awards SECTION
 %----------------------------------------------------------------------------------------
 
-\section{ ACHIEVEMENTS } 
+\section{ AWARDS } 
 
 Finalist of LXII Polish Mathematical Olympiad \hfill 2011 \\
 Finalist of LXI Polish Mathematical Olympiad \hfill 2010
